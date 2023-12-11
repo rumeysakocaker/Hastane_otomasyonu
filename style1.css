@@ -94,3 +94,80 @@ a {
     background: #49b5f3;
     top: 0;
 }
+.ust_bar h1{
+    position: absolute;
+    left: 50px;
+    line-height: 65px;
+    color: white;
+
+}
+
+.menu  h5
+{
+    position: relative;
+    display: inline;
+    padding: 50px;
+    line-height: 100px;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu
+{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background: #49b5f3;
+    right: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+ 
+.cikis
+ {
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    background: #49b5f3;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size:25px;
+    cursor:pointer;
+    top:0;
+ }
+
+ .cikis:hover {
+    background: red;
+ }
+ .adsoyad{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 50px;
+ }
+ .adsoyad h4{
+    position: relative;
+    float: left;
+    color: black;
+ }
+ .ortadiv{
+    margin-top: 10%;
+    position: fixed;
+    width: 45%;
+    height: 500px;
+    background:#e7e7e7;
+    top: 10px;
+    opacity: 0.6;
+ }
+ .randevu_div{
+left: 50px;
+ }
+ .ailehekimi_div{
+    left: 50pxq;
+ }
