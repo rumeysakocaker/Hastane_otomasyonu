@@ -22,7 +22,7 @@
             <div class="pass">
                 <input type="password" name="password" placeholder="Şifre">
             </div>
-            <button type="submit" class="sub" id="giris">Üye Ol</button>
+            <button type="submit" class="sub" id="giris" name="kullanicikaydet">Üye Ol</button>
             <br>
         </form>
         <a href="index.php"> <button type="submit" class="sub" id = "uye">Geri Çık</button></a>

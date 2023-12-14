@@ -15,6 +15,9 @@ include "header.php";
         <h4> Sn. Ad Soyad</h4>
     </div>
 <div class= "ortadiv" id="randevu_div">
+
+<form action="islem.php" method="post">
+
     <input type="date" name="tarih">
     <select name="sehir" class="hastane">
     <option value="İl Seçin">İl Seçin</option>
@@ -121,6 +124,9 @@ include "header.php";
 
 
     </select>
+
+    <button name="randevu_kaydet" >Randevuyu Kaydet</button>
+</form>
 
 </div>
     <div class="ortadiv" id="ailehekimi_div">
