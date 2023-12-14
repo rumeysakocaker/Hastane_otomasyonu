@@ -156,6 +156,11 @@ a{
     float: left;
     color: black;
  }
+ .ortadiv h3
+ {
+    position: relative;
+    color: black;
+ }
  .ortadiv{
     margin-top: 10%;
     position: fixed;
@@ -165,9 +170,37 @@ a{
     top: 10px;
     opacity: 0.6;
  }
- .randevu_div{
+ #randevu_div
+ {
 left: 50px;
  }
- .ailehekimi_div{
-    left: 50pxq;
+ #ailehekimi_div
+ {
+    right: 50px;
+ }
+ #ailehekimi_div p
+ {
+    position: relative;
+    color:#292830;
+    font-size: 30px;;
+    text-align:center;
+    top:10px;
+ }
+
+ select,
+ #randevu_div input,
+ button
+ {
+    position: relative;
+    width: 450px;
+    height: 40px;
+    margin-top:10px;
+    background: #292830;
+    color:white;
+    cursor: pointer;
+ }
+ #randevu_div form
+ {
+    position: relative;
+    top: 50px;
  }
