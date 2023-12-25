@@ -14,10 +14,10 @@
         <h1>Giriş Yap</h1>
         <form action="islem.php" method="post">
             <div class="user">
-                <input type="text" name="tc" placeholder="Tc kimlik no ">
+                <input type="text" name="kullanici_tc" placeholder="Tc kimlik no ">
             </div>
             <div class="pass">
-                <input type="password" name="password" placeholder="Şifre">
+                <input type="password" name="kullanici_password" placeholder="Şifre">
             </div>
             <button type="submit" class="sub" id="giris" name="giris_yap">Giriş Yap</button>
             <br>

@@ -168,8 +168,8 @@ a{
  .randevu_div{
 left: 50px;
  }
- .ailehekimi_div{
-    left: 50px;
+ #ailehekimi_div{
+    right: 50px;
  }
 
  .ailehekimi_div p
