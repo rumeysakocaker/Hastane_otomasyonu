@@ -7,12 +7,12 @@ include "header.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=stil.css>
+    <link rel="stylesheet" href=style.css>
     <title>Hastane Otomasyonu</title>
 </head>
 <body>
     <div class="adsoyad">
-        <h4> Sn. Ad Soyad</h4>
+        <h4> Sn. <?php echo $kullanicicek['kullanici_adsoyad']; ?></h4>
     </div>
 <div class= "ortadiv" id="randevu_div">
 
@@ -124,7 +124,7 @@ include "header.php";
 
 
     </select>
-
+    <input type="hidden" name="kullanici_id" value="<?php echo $kullanicicek['kullanici_id']; ?>">
     <button name="randevu_kaydet" >Randevuyu Kaydet</button>
 </form>
 

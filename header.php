@@ -4,6 +4,24 @@ ob_start();
 session_start();
 include 'baglan.php';
 
+$kullanicisor=$db->prepare("SELECT * from kullanici WHERE kullanici_tc=:kullanici_tc");
+$kullanicisor->execute([
+    'kullanici_tc'=>$_SESSION['userkullanici_tc']
+]);
+$say=$kullanicisor->rowCount();
+$kullanicicek=$kullanicisor->fetch(PDO::FETCH_ASSOC);
+
+if($say==0)
+{
+    header("location:index.php?durum=izinsiz");
+    exit;
+}
+
+
+
+
+
+
 ?>
 
 
@@ -13,7 +31,7 @@ include 'baglan.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=stil.css>
+    <link rel="stylesheet" href=style.css>
     <title>Hastane Otomasyonu</title>
 </head>
 <body>
@@ -25,9 +43,9 @@ include 'baglan.php';
 
         </div>
     </div>
-    <div class="cikis">
+    <a href="logout.php"><div class="cikis">
         Çıkış yap
-</div>
+</div></a>
     
 </body>
 </html>
